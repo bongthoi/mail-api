@@ -1,5 +1,5 @@
 import express from 'express';
-import SERVER_CONFIG from '../../configs/SERVER_CONFIG.json';
+import SERVER_CONFIG from '../../configs/server_config.json';
 import MailService from '../services/mailService';
 
 /** */
