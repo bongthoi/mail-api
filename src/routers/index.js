@@ -1,4 +1,5 @@
 import express from 'express';
+import SERVER_CONFIG from '../../configs/SERVER_CONFIG.json';
 import MailService from '../services/mailService';
 
 /** */
@@ -10,7 +11,7 @@ router.get("/", (req, res) => {
 	res.json({ "Project Name": "mail-api" });;
 });
 
-router.post('/sendMail', async (req, res)=>{
+router.post(SERVER_CONFIG.api_url+'sendMail', async (req, res)=>{
 	
 	let from =req.body.from;
 	let	to= req.body.to;
