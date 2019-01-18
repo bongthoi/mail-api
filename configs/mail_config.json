@@ -1,9 +1,10 @@
 {
-    "host":"smtp.gmail.com",
+    "host":"mail.vinhsangvn.com",
     "port":465,
     "secure":true,
+    "tls":{ "rejectUnauthorized": false},
     "auth":{
-        "user":"bongthoi1111@gmail.com",
-        "pass": "@pplication"
+        "user":"fengshui@vinhsangvn.com",
+        "pass": "f3ngshu!@2019"
     }
 }
